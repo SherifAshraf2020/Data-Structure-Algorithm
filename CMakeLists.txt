@@ -20,3 +20,11 @@ add_executable(ClockType_Run
         ClockType/clockType.h
         ClockType/clockType.cpp
 )
+
+
+# 4) Target to run the personType project
+add_executable(PersonType_Run
+        PersonType/main.cpp
+        PersonType/personType.h
+        PersonType/personType.cpp
+)
