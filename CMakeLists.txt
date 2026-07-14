@@ -3,8 +3,20 @@ project(Data_Structure_Algorithm CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Data_Structure_Algorithm main.cpp ArrayList/arrayListType.h
+# 1) Target for the root main (if you still use it)
+add_executable(Data_Structure_Algorithm
         main.cpp
 )
 
-add_executable(ArrayList_Run ArrayList/main.cpp ArrayList/arrayListType.h)
+# 2) Target to run the ArrayList project
+add_executable(ArrayList_Run
+        ArrayList/main.cpp
+        ArrayList/arrayListType.h
+)
+
+# 3) Target to run the ClockType project (NEW 🚀)
+add_executable(ClockType_Run
+        ClockType/main.cpp
+        ClockType/clockType.h
+        ClockType/clockType.cpp
+)
