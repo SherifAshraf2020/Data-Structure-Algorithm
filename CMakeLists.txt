@@ -28,3 +28,12 @@ add_executable(PersonType_Run
         PersonType/personType.h
         PersonType/personType.cpp
 )
+
+# 5) Target to run the FruitJuiceMachine project
+add_executable(FruitJuiceMachine_Run
+        FruitJuiceMachine/main.cpp
+        FruitJuiceMachine/cashRegister/cashRegister.h
+        FruitJuiceMachine/cashRegister/cashRegister.cpp
+        FruitJuiceMachine/dispenserType/dispenserType.h
+        FruitJuiceMachine/dispenserType/dispenserType.cpp
+)
